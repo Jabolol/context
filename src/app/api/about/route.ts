@@ -14,7 +14,7 @@ export async function GET(_request: Request) {
         },
         {
           name: "Javi",
-          github: "https://github.com/Jabolol",
+          github: "https://github.com/xRozzo",
           likes: "protein",
         },
       ],
