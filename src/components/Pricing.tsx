@@ -1,6 +1,12 @@
+import { CgCheckO } from "react-icons/cg";
+import { IoPeopleOutline, IoPersonOutline } from "react-icons/io5";
+
 export default function Pricing() {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div
+      id="pricing"
+      className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+    >
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
@@ -31,8 +37,9 @@ export default function Pricing() {
           pricing. Pay as you grow.
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque rem aperiam, eaque ipsa quae.
+          Dessert's billing system is designed with simplicity and transparency
+          in mind. Unlike traditional certification systems, there are no hidden
+          fees or complicated payment structures.
         </p>
       </div>
       <div className="grid max-w-md gap-10 row-gap-5 sm:row-gap-10 lg:max-w-screen-md lg:grid-cols-2 sm:mx-auto">
@@ -46,23 +53,7 @@ export default function Pricing() {
                 <p className="text-5xl font-extrabold">Free</p>
               </div>
               <div className="flex items-center justify-center w-24 h-24 rounded-full bg-blue-gray-50">
-                <svg
-                  className="w-10 h-10 text-gray-600"
-                  viewBox="0 0 24 24"
-                  strokeLinecap="round"
-                  strokeWidth="2"
-                >
-                  <path
-                    d="M12,7L12,7 c-1.657,0-3-1.343-3-3v0c0-1.657,1.343-3,3-3h0c1.657,0,3,1.343,3,3v0C15,5.657,13.657,7,12,7z"
-                    fill="none"
-                    stroke="currentColor"
-                  />
-                  <path
-                    d="M15,23H9v-5H7v-6 c0-1.105,0.895-2,2-2h6c1.105,0,2,0.895,2,2v6h-2V23z"
-                    fill="none"
-                    stroke="currentColor"
-                  />
-                </svg>
+                <IoPersonOutline className="w-10 h-10 text-gray-600" />
               </div>
             </div>
             <div>
@@ -70,101 +61,27 @@ export default function Pricing() {
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeWidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
+                    <CgCheckO className="w-4 h-4 text-deep-purple-accent-400" />
                   </div>
                   <p className="font-medium text-gray-800">
-                    10 deploys per day
+                    Unlimited lookups
                   </p>
                 </li>
                 <li className="flex items-center">
                   <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeWidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
+                    <CgCheckO className="w-4 h-4 text-deep-purple-accent-400" />
                   </div>
-                  <p className="font-medium text-gray-800">10 GB of storage</p>
+                  <p className="font-medium text-gray-800">
+                    Unlimited certifications
+                  </p>
                 </li>
                 <li className="flex items-center">
                   <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeWidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
+                    <CgCheckO className="w-4 h-4 text-deep-purple-accent-400" />
                   </div>
-                  <p className="font-medium text-gray-800">Unlimited domains</p>
-                </li>
-                <li className="flex items-center">
-                  <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeWidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
-                  </div>
-                  <p className="font-medium text-gray-800">SSL Certificates</p>
+                  <p className="font-medium text-gray-800">
+                    Limited integrations
+                  </p>
                 </li>
               </ul>
             </div>
@@ -177,8 +94,8 @@ export default function Pricing() {
               Start for free
             </a>
             <p className="text-sm text-gray-600">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium
+              This tier is governed by the fair use policy. No billing will be
+              done upon registering.
             </p>
           </div>
         </div>
@@ -187,48 +104,12 @@ export default function Pricing() {
             <div className="flex items-center justify-between pb-6 mb-6 border-b">
               <div>
                 <p className="text-sm font-bold tracking-wider uppercase">
-                  For your team
+                  For institutions
                 </p>
-                <p className="text-5xl font-extrabold">$39</p>
+                <p className="text-5xl font-extrabold">$10</p>
               </div>
               <div className="flex items-center justify-center w-24 h-24 rounded-full bg-indigo-50">
-                <svg
-                  className="w-10 h-10 text-deep-purple-accent-400"
-                  viewBox="0 0 24 24"
-                  strokeLinecap="round"
-                  strokeWidth="2"
-                >
-                  <path
-                    d="M4,7L4,7 C2.895,7,2,6.105,2,5v0c0-1.105,0.895-2,2-2h0c1.105,0,2,0.895,2,2v0C6,6.105,5.105,7,4,7z"
-                    fill="none"
-                    stroke="currentColor"
-                  />
-                  <path
-                    d="M6,21H3v-4 l-2,0v-5c0-1.105,0.895-2,2-2h1"
-                    fill="none"
-                    stroke="currentColor"
-                  />
-                  <path
-                    d="M20,7L20,7 c1.105,0,2-0.895,2-2v0c0-1.105-0.895-2-2-2h0c-1.105,0-2,0.895-2,2v0C18,6.105,18.895,7,20,7z"
-                    fill="none"
-                    stroke="currentColor"
-                  />
-                  <path
-                    d="M18,21h3v-4 l2,0v-5c0-1.105-0.895-2-2-2h-1"
-                    fill="none"
-                    stroke="currentColor"
-                  />
-                  <path
-                    d="M12,7L12,7 c-1.657,0-3-1.343-3-3v0c0-1.657,1.343-3,3-3h0c1.657,0,3,1.343,3,3v0C15,5.657,13.657,7,12,7z"
-                    fill="none"
-                    stroke="currentColor"
-                  />
-                  <path
-                    d="M15,23H9v-6H7v-5 c0-1.105,0.895-2,2-2h6c1.105,0,2,0.895,2,2v6h-2V23z"
-                    fill="none"
-                    stroke="currentColor"
-                  />
-                </svg>
+                <IoPeopleOutline className="w-10 h-10 text-deep-purple-accent-400" />
               </div>
             </div>
             <div>
@@ -236,125 +117,39 @@ export default function Pricing() {
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeWidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
-                  </div>
-                  <p className="font-medium text-gray-800">Unlimited deploys</p>
-                </li>
-                <li className="flex items-center">
-                  <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeWidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
+                    <CgCheckO className="w-4 h-4 text-deep-purple-accent-400" />
                   </div>
                   <p className="font-medium text-gray-800">
-                    Up to 10 Team Members
+                    All from the free tier
                   </p>
                 </li>
                 <li className="flex items-center">
                   <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeWidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
+                    <CgCheckO className="w-4 h-4 text-deep-purple-accent-400" />
                   </div>
-                  <p className="font-medium text-gray-800">100 GB of starge</p>
+                  <p className="font-medium text-gray-800">
+                    Access to all integrations
+                  </p>
                 </li>
                 <li className="flex items-center">
                   <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeWidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
+                    <CgCheckO className="w-4 h-4 text-deep-purple-accent-400" />
+                  </div>
+                  <p className="font-medium text-gray-800">
+                    Reporting and analytics
+                  </p>
+                </li>
+                <li className="flex items-center">
+                  <div className="mr-2">
+                    <CgCheckO className="w-4 h-4 text-deep-purple-accent-400" />
                   </div>
                   <p className="font-medium text-gray-800">24/7 support</p>
                 </li>
                 <li className="flex items-center">
                   <div className="mr-2">
-                    <svg
-                      className="w-4 h-4 text-deep-purple-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeWidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="currentColor"
-                      />
-                    </svg>
+                    <CgCheckO className="w-4 h-4 text-deep-purple-accent-400" />
                   </div>
-                  <p className="font-medium text-gray-800">Global CDN</p>
+                  <p className="font-medium text-gray-800">Custom branding</p>
                 </li>
               </ul>
             </div>
@@ -367,8 +162,8 @@ export default function Pricing() {
               Get started
             </a>
             <p className="text-sm text-gray-600">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium
+              Billed monthly. Cancellation must be done at least 3 days prior to
+              the renewal.
             </p>
           </div>
         </div>
