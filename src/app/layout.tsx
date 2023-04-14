@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Context",
-  description: "Created for the Web3 Hackathon",
+  title: "Dessert",
+  description: "Decentralized certifications centralized securely",
 };
 
 export default function RootLayout({
