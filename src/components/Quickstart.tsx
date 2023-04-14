@@ -14,7 +14,7 @@ export default function Quickstart() {
               Check certificates
             </h5>
             <p className="mb-6 text-base text-gray-700 md:text-lg sm:mb-8">
-              Verify the authenticity of credentials by checking a user's
+              Verify the authenticity of credentials by checking a user&#39;s
               certificates.
             </p>
           </div>
