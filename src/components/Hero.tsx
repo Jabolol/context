@@ -1,11 +1,18 @@
+"use client";
+import { TbLock, TbPigMoney, TbWorld } from "react-icons/tb";
+import { useEffect } from "react";
+
 export default function Header() {
+  useEffect(() => {
+    fetch("/api/about").then((r) => r.text()).then(console.log);
+  }, []);
   return (
     <div className="mb-16">
       <div className="bg-gray-100">
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
             <div>
-              <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+              <p className="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
                 Private Alpha
               </p>
             </div>
@@ -35,11 +42,12 @@ export default function Header() {
                 </svg>
                 <span className="relative">The</span>
               </span>{" "}
-              quick, brown fox jumps over a lazy dog
+              21st century system for certificates
             </h2>
             <p className="text-base text-gray-700 md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+              Revolutionize the way institutions issue and verify academic
+              certificates, ensuring tamper-proof security and globally
+              recognized authenticity.
             </p>
           </div>
           <div className="flex items-center sm:justify-center">
@@ -50,8 +58,8 @@ export default function Header() {
               Get started
             </button>
             <a
-              href="/"
-              aria-label=""
+              href="#get-started"
+              aria-label="Learn more"
               className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
               Learn more
@@ -64,62 +72,26 @@ export default function Header() {
         <div className="relative grid mx-auto overflow-hidden bg-white divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm sm:grid-cols-3 lg:max-w-screen-md">
           <div className="inline-block p-8 text-center">
             <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-10 h-10 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+              <TbLock className="w-10 h-10 text-deep-purple-accent-400" />
             </div>
             <p className="font-bold tracking-wide text-gray-800">
-              Make it better
+              Secure
             </p>
           </div>
           <div className="inline-block p-8 text-center">
             <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-10 h-10 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+              <TbPigMoney className="w-10 h-10 text-deep-purple-accent-400" />
             </div>
             <p className="font-bold tracking-wide text-gray-800">
-              Do it faster
+              Cost-effective
             </p>
           </div>
           <div className="inline-block p-8 text-center">
             <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-10 h-10 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+              <TbWorld className="w-10 h-10 text-deep-purple-accent-400" />
             </div>
             <p className="font-bold tracking-wide text-gray-800">
-              Working harder
+              Universal
             </p>
           </div>
         </div>
