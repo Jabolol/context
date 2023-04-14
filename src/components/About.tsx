@@ -1,6 +1,11 @@
+import { HiOutlineArrowSmRight } from "react-icons/hi";
+
 export default function About() {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div
+      id="about-us"
+      className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+    >
       <div className="grid gap-5 row-gap-10 lg:grid-cols-2">
         <div className="flex flex-col justify-center">
           <div className="max-w-xl mb-6">
@@ -16,125 +21,56 @@ export default function About() {
               </span>
             </h2>
             <p className="text-base text-gray-700 md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo.
+              Developed by <code>Web3</code> advocates and{" "}
+              <code>TypeScript</code>{" "}
+              lovers, Dessert is the ideal platform for students and
+              universities alike, amongst many others. Having certificates
+              centralized in a decentralized registry eases verification
+              greatly.
             </p>
           </div>
           <p className="mb-4 text-sm font-bold tracking-widest uppercase">
-            Features
+            About us
           </p>
           <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
             <ul className="space-y-3">
               <li className="flex">
                 <span className="mr-1">
-                  <svg
-                    className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
+                  <HiOutlineArrowSmRight className="w-5 h-5 mt-px text-deep-purple-accent-400" />
                 </span>
-                A slice of heaven
+                Privacy advocates
               </li>
               <li className="flex">
                 <span className="mr-1">
-                  <svg
-                    className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
+                  <HiOutlineArrowSmRight className="w-5 h-5 mt-px text-deep-purple-accent-400" />
                 </span>
-                Disrupt inspire
+                Engineering students
               </li>
               <li className="flex">
                 <span className="mr-1">
-                  <svg
-                    className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
+                  <HiOutlineArrowSmRight className="w-5 h-5 mt-px text-deep-purple-accent-400" />
                 </span>
-                Preliminary thinking
+                Tech passionates
               </li>
             </ul>
             <ul className="space-y-3">
               <li className="flex">
                 <span className="mr-1">
-                  <svg
-                    className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
+                  <HiOutlineArrowSmRight className="w-5 h-5 mt-px text-deep-purple-accent-400" />
                 </span>
-                Flipboard curmudgeon
+                Gym lovers
               </li>
               <li className="flex">
                 <span className="mr-1">
-                  <svg
-                    className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
+                  <HiOutlineArrowSmRight className="w-5 h-5 mt-px text-deep-purple-accent-400" />
                 </span>
-                Storage shed
+                Java haters
               </li>
               <li className="flex">
                 <span className="mr-1">
-                  <svg
-                    className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
+                  <HiOutlineArrowSmRight className="w-5 h-5 mt-px text-deep-purple-accent-400" />
                 </span>
-                Satoshi Nakamoto
+                Pancake eaters
               </li>
             </ul>
           </div>
@@ -143,7 +79,7 @@ export default function About() {
           <img
             className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
             src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
-            alt=""
+            alt="about us image"
           />
         </div>
       </div>
