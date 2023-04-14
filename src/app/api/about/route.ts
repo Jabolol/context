@@ -13,7 +13,7 @@ export async function GET(_request: Request) {
           likes: "risotto",
         },
         {
-          name: "Javi",
+          name: "David",
           github: "https://github.com/xRozzo",
           likes: "protein",
         },
