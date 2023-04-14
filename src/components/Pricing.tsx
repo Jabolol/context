@@ -37,7 +37,7 @@ export default function Pricing() {
           pricing. Pay as you grow.
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
-          Dessert's billing system is designed with simplicity and transparency
+          Dessert&#39;s billing system is designed with simplicity and transparency
           in mind. Unlike traditional certification systems, there are no hidden
           fees or complicated payment structures.
         </p>
