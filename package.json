@@ -7,7 +7,6 @@
     "start": "next start",
     "lint": "next lint",
     "build-ts": "node build.js",
-    "build": "npm run build-ts",
     "deploy-contract": "node --loader tsx src/contracts/tools/deploy-contract.ts",
     "test": "npm run build && jest"
   },
@@ -44,5 +43,6 @@
     "ts-jest": "^29.1.0",
     "tsconfig-paths": "^4.2.0",
     "tsx": "^3.12.6"
-  }
+  },
+  "type": "module"
 }
