@@ -68,7 +68,7 @@ const WalletButton = (props: {
     case ARWEAVE_APP:
       return (
         <div className="altFill">
-          <img src="ArweaveApp_Logo.svg" alt="wallet icon" />
+          <Image src="ArweaveApp_Logo.svg" alt="wallet icon" />
           <p>{props.walletAddress}</p>
         </div>
       );

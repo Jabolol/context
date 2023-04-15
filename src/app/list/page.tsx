@@ -13,7 +13,7 @@ export default function Home() {
     <main className={`${inter.className}`}>
       <Navbar />
       <div className="flex items-center gap-5 justify-center flex-row gap-2 flex-wrap">
-        {Array.from({ length: 12 }).map((x) => <Card />)}
+        {Array.from({ length: 12 }).map(() => <Card key={Math.random().toString()} />)}
       </div>
       <Footer />
     </main>

@@ -1,8 +1,9 @@
 "use client";
+import Image from "next/image"
 import { RxCross1 } from "react-icons/rx";
 import { useEffect, useState } from "react";
 
-export default function Card() {
+export default function Card({ ...props }) {
   const [info, setInfo] = useState<
     {
       results: [
@@ -44,14 +45,14 @@ export default function Card() {
     ? (
       <>
         <div
-          key={info?.results[0].email}
+          {...props}
           className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow"
         >
           <div className="flex justify-end px-4 pt-4">
             <RxCross1 className="w-8 h-auto inline-block text-gray-500 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 rounded-lg text-sm p-1.5" />
           </div>
           <div className="flex flex-col items-center pb-10">
-            <img
+            <Image
               className="w-24 h-24 mb-3 rounded-full shadow-lg"
               src={info?.results[0].picture.medium}
               alt="Bonnie image"
