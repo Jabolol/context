@@ -172,9 +172,9 @@ const WalletModal = (props: {
                         className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow bg-gray-600 hover:bg-gray-500 text-white"
                         role="alert"
                       >
-                        <BiError className="w-5" />
+                        <BiError className="w-5 h-5" />
                         <span className="flex-1 ml-3 whitespace-nowrap">
-                          Install Arconnect: {" "}
+                          Check {" "}
                           <a
                             className="font-bold underline"
                             href="https://arconnect.io/"
@@ -208,9 +208,9 @@ const WalletModal = (props: {
                         href="#"
                         className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow bg-gray-600 hover:bg-gray-500 text-white"
                       >
-                        <BiError className="w-5" />
+                        <BiError className="w-5 h-5" />
                         <span className="flex-1 ml-3 whitespace-nowrap">
-                          Coinbase Wallet is not supported yet.
+                          Coinbase is not supported
                         </span>
                       </a>
                     </li>
@@ -254,9 +254,9 @@ const WalletModal = (props: {
                         href="#"
                         className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow bg-gray-600 hover:bg-gray-500 text-white"
                       >
-                        <BiError className="w-5" />
+                        <BiError className="w-5 h-5" />
                         <span className="flex-1 ml-3 whitespace-nowrap">
-                          Opera Wallet is not supported yet.
+                          Opera is not supported
                         </span>
                       </a>
                     </li>
@@ -322,9 +322,9 @@ const WalletModal = (props: {
                         href="#"
                         className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow bg-gray-600 hover:bg-gray-500 text-white"
                       >
-                        <BiError className="w-5" />
+                        <BiError className="w-5 h-5" />
                         <span className="flex-1 ml-3 whitespace-nowrap">
-                          WalletConnect is not supported yet.
+                          WalletConnect is not supported
                         </span>
                       </a>
                     </li>
@@ -400,9 +400,9 @@ const WalletModal = (props: {
                         href="#"
                         className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow bg-gray-600 hover:bg-gray-500 text-white"
                       >
-                        <BiError className="w-5" />
+                        <BiError className="w-5 h-5" />
                         <span className="flex-1 ml-3 whitespace-nowrap">
-                          Fortmatic is not supported yet.
+                          Fortmatic is not supported
                         </span>
                       </a>
                     </li>
