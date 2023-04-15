@@ -19,14 +19,15 @@ export default function Quickstart() {
             </p>
           </div>
           <div className="flex items-center">
-            <button
+            <a
+              href="/list"
               type="submit"
               className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
             >
               Get started
-            </button>
+            </a>
             <a
-              href="/"
+              href="#features"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
@@ -43,19 +44,20 @@ export default function Quickstart() {
               Issue certificates
             </h5>
             <p className="mb-6 text-base text-gray-700 md:text-lg sm:mb-8">
-              Easily create and securely store multiple credentials for a specified
-              user.
+              Easily create and securely store multiple credentials for a
+              specified user.
             </p>
           </div>
           <div className="flex items-center">
-            <button
+            <a
+              href="/create"
               type="submit"
               className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
             >
               Get started
-            </button>
+            </a>
             <a
-              href="/"
+              href="#features"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
