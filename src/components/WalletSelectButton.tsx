@@ -1,6 +1,6 @@
-import React, { Dispatch, SetStateAction, useState } from "react";
+import { Dispatch, SetStateAction, useState } from "react";
 import { BiError } from "react-icons/bi";
-import arweave from "arweave";
+import Image from "next/image";
 import ArweaveLogo from "./Arweave";
 
 const NONE = "None";
@@ -11,9 +11,9 @@ export const WalletSelectButton = (props: {
   setIsConnected: (value: React.SetStateAction<boolean>) => void;
   isMobile: boolean;
 }) => {
-  const [showModal, setShowModal] = React.useState(false);
-  const [activeWallet, setActiveWallet] = React.useState(NONE);
-  const [addressText, setAddressText] = React.useState("xxxxx...xxx");
+  const [showModal, setShowModal] = useState(false);
+  const [activeWallet, setActiveWallet] = useState(NONE);
+  const [addressText, setAddressText] = useState("xxxxx...xxx");
 
   async function onWalletSelected(walletName: string) {
     let address = await window.arweaveWallet.getActiveAddress();
@@ -54,14 +54,20 @@ const WalletButton = (props: {
   switch (props.walletName) {
     case AR_CONNECT:
       return (
-        <div className="walletButton">
-          <img src="ArConnect_Logo.png" alt="wallet icon" />
+        <div className="flex align-center items-center border-2 border-deep-purple-accent-400 bg-gray-200 rounded-lg pl-2 pr-6 hover:bg-gray-400">
+          <Image
+            className="w-16 h-16"
+            src={"/scholario.png"}
+            width={503}
+            height={496}
+            alt="logo"
+          />
           <p>{props.walletAddress}</p>
         </div>
       );
     case ARWEAVE_APP:
       return (
-        <div className="walletButton altFill">
+        <div className="altFill">
           <img src="ArweaveApp_Logo.svg" alt="wallet icon" />
           <p>{props.walletAddress}</p>
         </div>
@@ -174,7 +180,7 @@ const WalletModal = (props: {
                       >
                         <BiError className="w-5 h-5" />
                         <span className="flex-1 ml-3 whitespace-nowrap">
-                          Check {" "}
+                          Check{"  "}
                           <a
                             className="font-bold underline"
                             href="https://arconnect.io/"
