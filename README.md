@@ -1,10 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# context
 
-## Getting Started
+<img align="right" src="./public/scholario.png" width="150px" alt="the logo" />
 
-First, run the development server:
+**Context**, a `MVP` for storing and verifying certifications using blockchain
+technology. Organizations can issue tamper-proof digital certificates that can
+be easily verified by third parties.
 
-```bash
+- `Secure` storage of certifications
+- Easy verification of certifications by `third` parties
+- Customizable certificate `templates` for different types of certifications
+- Built-in fraud `prevention` measures to prevent certificate tampering
+
+# Web3 hackathon winners
+
+> Presential Hackathon in Barcelona April `14th` & `15th` 2023 at `Barcelona`.
+
+Over the course of two days our team, integrated by https://github.com/xRozzo,
+https://github.com/alex-alra-arteaga and https://github.com/Jabolol, designed
+and created this idea, rising to the highest ranking.
+
+We are thrilled to have had the opportunity to showcase our skills and
+contribute to the growth of the `web3` ecosystem. This hackathon was a great
+experience for our team, and we look forward to participating in future web3
+events and continuing to develop `innovative` solutions using these cutting-edge
+technologies.
+
+![](./public/hackathon.png)
+
+# getting started
+
+Clone the repo:
+
+```sh
+git clone git@github.com:Jabolol/context.git .
+```
+
+Run the development server:
+
+```sh
 npm run dev
 # or
 yarn dev
@@ -12,25 +45,8 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Check out the result:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+https://localhost:3000/
+```
