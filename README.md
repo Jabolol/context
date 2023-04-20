@@ -15,9 +15,11 @@ be easily verified by third parties.
 
 > Presential Hackathon in Barcelona April `14th` & `15th` 2023 at `Barcelona`.
 
-Over the course of two days our team, integrated by https://github.com/xRozzo,
-https://github.com/alex-alra-arteaga and https://github.com/Jabolol, designed
-and created this idea, rising to the highest ranking.
+Over the course of two days our team, integrated by
+[xRozzo](https://github.com/xRozzo),
+[Alex Alra Arteaga](https://github.com/alex-alra-arteaga) and
+[Jabolol](https://github.com/Jabolol), designed and created this idea, rising to
+the highest ranking.
 
 We are thrilled to have had the opportunity to showcase our skills and
 contribute to the growth of the `web3` ecosystem. This hackathon was a great
