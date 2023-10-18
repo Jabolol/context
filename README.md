@@ -1,8 +1,11 @@
 # context
 
-<img align="right" src="./public/scholario.png" width="150px" alt="the logo" />
+> **Note**
+> 
+> **1st place**
+> [`overall`](#web3-hackathon-winners) at **Context Hackathon** Barcelona, sponsored by **Arweave**, **Avalanche**...
 
-**Context**, a [hackathon winner](#web3-hackathon-winners) `MVP` for storing and
+**Context**, an `MVP` for storing and
 verifying certifications using blockchain technology. Organizations can issue
 tamper-proof digital certificates that can be easily verified by third parties.
 
